@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Noto+Sans+Symbols:wght@300;600;700&display=swap');
+/* font-family: 'Allan', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body   {
+    background-color: #2D4480;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+
+.card {
+    margin: 5rem;
+    padding: 2rem;
+    padding-bottom: 3em;
+    border-radius: 1.6875rem;
+    box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.60);
+    background-color: white;
+    margin-inline: auto;
+    width: 18rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card h1 {
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.card .features {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    width: 11rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    border-bottom: solid;
+}
+
+.card .free {
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    letter-spacing: 0.2925rem;
+}
+
+.card .forever {
+    color: #2D4480;
+    font-family: 'Allan', cursive;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    margin-left: 5rem;
+}
+
+.card img {
+    width: 1em;
+    margin-right: 1em;
+}
+
+.card a {
+    width: 11.3125rem;
+    height: 4.25rem;
+    line-height: 4.25rem;
+    border-radius: 2.125rem;
+    background: #FFBC0F;
+    color: #253868;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: ;
+    bottom: 0;
+    transform: translateY(50%);
+}
